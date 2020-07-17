@@ -1,23 +1,32 @@
 ---
 title: Nearest Neighboring City
+tags:
+- algorithm
+category: blog
 ---
 
 ### Description
 Every city has an integral coordinate location like (x, y) and it is denoted on Euclidean plain.
 #### How to find out the nearest city?
 First, if cities shares either an x or y, it can be in queried list.
+
 Second, a distance beween cities is calculated Pythagorean theorem. (e.g. (x1 - x2)^2 + (y1 - y2)^2)
+
 Finally, if some cities have the same distance, the nearest city is an alphabetically shorter name.
 ### Input
 c = [] Array of strings which is a name of city. for construction a map.
+
 x = [] Array of integers for construction a map.
+
 y = [] Array of integers for construction a map.
+
 q = []  Array of strings which is a name of city. for querying.
 
 ### Output
 print each line with a name of the nearest city.
 
 However, what if any city does not share x or y?
+
 Just print `'NONE'`. that's it.
 ### Code
 ```
