@@ -3,6 +3,7 @@ title: The First Time I've Entered an Algorithm Competition at Codeforces
 tags:
 - algorithm
 - codeforces
+category: blog
 ---
 
 A few days ago, I enterd a div3 contesnt.
