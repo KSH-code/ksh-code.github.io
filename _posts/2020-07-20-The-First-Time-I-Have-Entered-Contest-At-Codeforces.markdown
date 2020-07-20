@@ -6,13 +6,13 @@ tags:
 category: blog
 ---
 
-A few days ago, I enterd a div3 contesnt.
-It was open at 11:35 p.m. Korean time. so I'm too tired and I entered it late.
+A few days ago, I enterd a div3 contesnt.<br>
+It was open at 11:35 p.m. Korean time. so I'm too tired and I entered it late.<br><br>
 
-Anyway, I tried to hard but I could not understand the problme C.
-I lacked the skills to understand problems so I think should grow it.
+Anyway, I tried to hard but I could not understand the problme C.<br>
+I lacked the skills to understand problems so I think should grow it.<br><br>
 
-It was very  good experience to solve problmes for other competitions.
+It was very  good experience to solve problmes for other competitions.<br><br>
 
-In the future, I have to prepare to solve.
+In the future, I have to prepare to solve.<br>
 After next entering, I'm gonna post.
