@@ -5,7 +5,7 @@ tags:
 category: blog
 ---
 
-# B-Tree 특성
+## B-Tree 특성
 - B-Tree 는 large-file 을 access 하기 위함으로 hash 방식을 많이 대체가능함
 	- Hash 방식은 hard disk 를 이용하는 경우 seek 이 빈번히 실행돼서 비효율적이다.
 		- 로컬리티도 낮다. -> SDD 에서도 비효율적
@@ -17,16 +17,22 @@ category: blog
 	- 루트를 제외한 internal nodes 들은 ceil(m / 2) ~ m 의 children nodes 를 가진다.
 		- 여기서 m 은 최대의 자식 개수
 - leaves 들은 모두 같은 레벨에 있어야 된다. -> balanced tree
-## B-Tree Alogirhtm
-### Insertion
+<hr>
+### B-Tree Alogirhtm
+#### Insertion
 - 키가 삽입 가능한 리프노드를 찾고, 있다면 넣는다.
 - 만약 불가능하다면 노드를 두 개로 나눠서 미들키로 이용
 	- 만약 미들키가 부모에도 포함될 수 없다면 상위 level 로 올라가며 merge 함
-### Search
+<hr>
+#### Search
 - binary search 와 비슷한 동작, 적절한 키 있다면 내려가면서 탐색
 - 못찾으면 fail
-
+<hr>
+### 여담
+- B-Tree 의 B 는 뭐의 약자인지 공개되지 않았다. 처음 고안한 사람은 B 가 뭐의 약자인지 고민할수록 B-Tree 를 이해할 수 있다고 한다.
+<hr>
 ## Note
-- 2-3 tree 와 비슷하니 2-3 tree 에 대해 작성하며 못다한 설명을 이어서 하자
+- 2-3 tree 는 B-Tree 의 종류이니 2-3 tree 에 대해 작성하며 못다한 설명을 이어서 하자
+<hr>
 ## Ref
 - Data Structures and Algorithm Analysis Edition 3.2 (Java Version)
