@@ -1,0 +1,32 @@
+---
+title: B-Tree 란?
+tags:
+- data-structure
+category: blog
+---
+
+# B-Tree 특성
+- B-Tree 는 large-file 을 access 하기 위함으로 hash 방식을 많이 대체가능함
+	- Hash 방식은 hard disk 를 이용하는 경우 seek 이 빈번히 실행돼서 비효율적이다.
+		- 로컬리티도 낮다. -> SDD 에서도 비효율적
+- 삽입, 삭제, 수정, key-range searching 을 효율적으로 하기 위함
+	- 데이터를 불러올 때 디스크의 사용하는 방식에 따라 현재 노드와 children nodes 를 한 번에 불러와야 성능이 좋다.
+		- 블록 크기에 따라 노드 개수의 제한은 적절히 설정돼야 한다.
+- height 가 balanced 돼있다.
+- 루트는 leaf node 이거나 적어도 두 개의 children 을 가진다.
+	- 루트를 제외한 internal nodes 들은 ceil(m / 2) ~ m 의 children nodes 를 가진다.
+		- 여기서 m 은 최대의 자식 개수
+- leaves 들은 모두 같은 레벨에 있어야 된다. -> balanced tree
+## B-Tree Alogirhtm
+### Insertion
+- 키가 삽입 가능한 리프노드를 찾고, 있다면 넣는다.
+- 만약 불가능하다면 노드를 두 개로 나눠서 미들키로 이용
+	- 만약 미들키가 부모에도 포함될 수 없다면 상위 level 로 올라가며 merge 함
+### Search
+- binary search 와 비슷한 동작, 적절한 키 있다면 내려가면서 탐색
+- 못찾으면 fail
+
+## Note
+- 2-3 tree 와 비슷하니 2-3 tree 에 대해 작성하며 못다한 설명을 이어서 하자
+## Ref
+- Data Structures and Algorithm Analysis Edition 3.2 (Java Version)
