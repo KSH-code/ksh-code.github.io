@@ -1,2 +1,4 @@
 User-agent: *
 Disallow:
+
+Sitemap: https://ksh-code.github.io/sitemap.xml
