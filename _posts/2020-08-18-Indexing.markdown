@@ -1,0 +1,33 @@
+---
+title: Indexing
+category: blog
+tags:
+- data-structure
+---
+
+# Preface
+요즘의 어플리케이션은 메인 메모리로 모든 데이터를 처리하기 힘들다. 그렇기 때문에 HDD, SSD 와 같은 보조 기억장치를 통해 데이터를 저장이 가능하게 하고 이를 조회할 수 있다.
+그런데 만약 특정 키 범위에 포함되는 records 를 조회하기 위해서는 어떻게 해야될까? 모든 records 를 메인 메모리로 불러오지 않고 처리할 수는 없을까?
+
+당연히 가능하다.
+# Indexing
+이전 블로그에 간략히 설명한 B-Tree 도 결국은 file system 의 비효율적인 처리를 효율적인 방법을 통해 개선하기 위함인데 이와 같은 역할을 indexing 이라고 보면 된다. (우선은..)
+
+다시 정리해보면 indexing 이란 특정 key 에 대한 검색을 진행할 때 연관된 데이터를 가져오기 위한 일종의 단계이다.
+## Terminology
+Database 를 공부 혹은 사용하게 된다면 **primary key** 와 **secondary key** 라는 용어를 들어봤을 것이다.
+
+primary key  부터  살펴보면 복잡한 것 없이 특정 record 를 구분할 수 있는 고유값인데 사람으로 예를 들면 주민번호이다.
+secondary key 는 이름과 같은 중복값이 나타날 수 있지만 구분할 수 있는 값이다.
+
+현재 위에서 설명한 개념에는 index 라는 개념이 포함되지 않은 상태인데 **primary key index**와 **secondary key index**를 편하게 key를 빼고 부르기도 하는 이 것은 찾고자 하는 record 를 금방 찾게해주는 역할을 해준다. 사전을 통해 우리는 알고자 하는 단어에 쉽게 접근한다. 하지만 그 단어에 바로 접근할 수는 없다. 그런데 핸드폰의 전화번호부와 같은 것을 생각하면 이름을 입력한 후 바로 이와 연관된 데이터들을 볼 수 있다. 이러한 예와 같이 데이터에 바로 접근할 수 있는 개념이 인덱스이며 데이터와 접근을 바로할 수 있는 구현도 있고 한 번더 이동해야 되는 경우도 있다.
+
+real world 에서는 원하는 요구사항이 다르기 때문에 그에 맞게 구현하면 된다.
+# Next
+- Linear Indexing
+- ISAM
+- Tree-based Indexing
+
+3 가지를 순서대로 자세히 살펴보겠다.
+# Ref
+- Data Structures and Algorithm Analysis Edition 3.2 (Java Version)
