@@ -6,7 +6,8 @@ layout: page
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
 
-Seonghoon Kim
+<h3 style="text-align: center">Seonghoon Kim</h3>
+<hr>
 # Work Experience
 ### CREMA (November, 2018 ~ Present)
 <hr>
@@ -19,9 +20,6 @@ Seonghoon Kim
 <hr>
 ### UDtech (September, 2017 ~ November, 2017)
 <p>I made internal management pages.</p>
-<hr>
-# Education
-### Kookmmin University, Bachelor of Compuer Software (March, 2019 ~ Present)
 <hr>
 # Honors and Awards
 ### 2018
@@ -47,3 +45,18 @@ Seonghoon Kim
 	<li>[최우수상] 세명컴퓨터고등학교 알고리즘 경진대회</li>
 	<li>[본선] 국민대학교 고등학생 알고리즘 경진대회</li>
 </ul>
+
+<hr>
+# Open Source Project
+- [인터뷰 관련 정보 기록] https://github.com/KSH-code/Technical-Interview
+- [Npm Package 제작] https://www.npmjs.com/~ksh-code
+- [콘텐츠 추가] https://github.com/JaeYeopHan/algorithm_basic_java/pull/1
+- [버그 해결] https://github.com/torvalds/test-tlb/pull/11
+- [오타 수정] https://github.com/cubelover/BOJ-tier/pull/15
+- [오타 수정] https://github.com/Semantic-Org/Semantic-UI-Docs/pull/361
+- [오타 수정] https://github.com/nolimits4web/swiper/pull/3782
+- [오타 수정] https://github.com/nolimits4web/swiper-website/pull/70
+
+<hr>
+# Education
+### Kookmmin University, Bachelor of Compuer Software (March, 2019 ~ Present)
