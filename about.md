@@ -5,11 +5,10 @@ layout: page
 
 ![Profile Image]({% if site.external-image %}{{ site.picture }}{% else %}{{ site.url }}/{{ site.picture }}{% endif %})
 
-
 <h3 style="text-align: center">Seonghoon Kim</h3>
 <hr>
 # Work Experience
-### CREMA (November, 2018 ~ Present)
+### CREMA (November, 2018 ~ Current)
 <hr>
 ### Nurigo (December, 2017 ~ October, 2018)
 #### Projects
@@ -72,4 +71,4 @@ layout: page
 - The File Structure - 이석호
 <hr>
 # Education
-### Kookmmin University, Bachelor of Compuer Software (March, 2019 ~ Present)
+### Kookmmin University, Bachelor of Compuer Software (March, 2019 ~ Current)
