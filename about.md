@@ -47,6 +47,7 @@ layout: page
 
 <hr>
 # Open Source Project
+- [Pytorch 한국 문서 오탈자 수정] https://github.com/9bow/PyTorch-tutorials-kr/pull/177
 - [인터뷰 관련 정보 기록] https://github.com/KSH-code/Technical-Interview
 - [Npm Package 제작] https://www.npmjs.com/~ksh-code
 - [콘텐츠 추가] https://github.com/JaeYeopHan/algorithm_basic_java/pull/1
