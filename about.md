@@ -59,11 +59,12 @@ layout: page
 
 <hr>
 # Read Books
+- Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems - Martin Kleppmann Review
+	- [Review](/DDIA-REVIEW/)
 - Code Complete 2 - Steve McConnell
 - Operating Systems: Three Easy Pieces - Remzi Arpaci-Dusseau
 <hr>
 ## Under Reading
-- Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems - Martin Kleppmann
 - Machine Learing - 오일석
 - Data Science from Scratch: First Principles with Python - Joel Grus
 - Database Internals: A Deep Dive into How Distributed Data Systems Work - Alex Petrov
