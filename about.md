@@ -47,15 +47,16 @@ layout: page
 
 <hr>
 # Open Source Project
-- [Pytorch 한국 문서 오탈자 수정] https://github.com/9bow/PyTorch-tutorials-kr/pull/177
-- [인터뷰 관련 정보 기록] https://github.com/KSH-code/Technical-Interview
-- [Npm Package 제작] https://www.npmjs.com/~ksh-code
-- [콘텐츠 추가] https://github.com/JaeYeopHan/algorithm_basic_java/pull/1
-- [버그 해결] https://github.com/torvalds/test-tlb/pull/11
-- [오타 수정] https://github.com/cubelover/BOJ-tier/pull/15
-- [오타 수정] https://github.com/Semantic-Org/Semantic-UI-Docs/pull/361
-- [오타 수정] https://github.com/nolimits4web/swiper/pull/3782
-- [오타 수정] https://github.com/nolimits4web/swiper-website/pull/70
+- [Vuejs 기능 개선](https://github.com/vuejs/vue/pull/11857)
+- [Pytorch 한국 문서 오탈자 수정](https://github.com/9bow/PyTorch-tutorials-kr/pull/177)
+- [읽은 글 공유](https://github.com/KSH-code/awesome-practical-posts)
+- [Npm Package 제작](https://www.npmjs.com/~ksh-code)
+- [콘텐츠 추가](https://github.com/JaeYeopHan/algorithm_basic_java/pull/1)
+- [버그 해결](https://github.com/torvalds/test-tlb/pull/11)
+- [오타 수정](https://github.com/cubelover/BOJ-tier/pull/15)
+- [오타 수정](https://github.com/Semantic-Org/Semantic-UI-Docs/pull/361)
+- [오타 수정](https://github.com/nolimits4web/swiper/pull/3782)
+- [오타 수정](https://github.com/nolimits4web/swiper-website/pull/70)
 
 <hr>
 # Read Books
