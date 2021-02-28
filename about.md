@@ -9,6 +9,10 @@ layout: page
 <hr>
 # Work Experience
 ### CREMA (November, 2018 ~ Current)
+- 타겟 개발팀: 2020. 06. 08. ~ Current
+- 리뷰 개발팀: 2018.11.12. ~ 2020. 06. 07.
+	- 당시, 약 1600개의 고객사가 사용 중인 리뷰 서비스의 개발팀에 속함
+	- 정확한 수치는 공개하기 어렵고, 크리마 홈페이지에 의하면 MAU는 2000만 이상이다.
 <hr>
 ### Nurigo (December, 2017 ~ October, 2018)
 #### Projects
@@ -16,9 +20,6 @@ layout: page
 <p>SDK 를 제작했다. 외부에서 누리고의 서비스를 호출할 때의 예제 코드가  없기 때문에 어려움을 겪는 고객들이 많았기 때문이다.</p>
 <p>여러 마이크로서비스 제작에 참여했다. 자세한 내용은 공개하지 않겠다.</p>
 
-<hr>
-### UDtech (September, 2017 ~ November, 2017)
-<p>I made internal management pages.</p>
 <hr>
 # Honors and Awards
 ### 2018
