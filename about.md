@@ -63,18 +63,5 @@ layout: page
 - [오타 수정](https://github.com/nolimits4web/swiper-website/pull/70)
 
 <hr>
-# Read Books
-- Designing Data-Intensive Applications: The Big Ideas Behind Reliable, Scalable, and Maintainable Systems - Martin Kleppmann Review
-	- [Review](/DDIA-REVIEW/)
-- Code Complete 2 - Steve McConnell
-- Operating Systems: Three Easy Pieces - Remzi Arpaci-Dusseau
-<hr>
-## Under Reading
-- Machine Learing - 오일석
-- Data Science from Scratch: First Principles with Python - Joel Grus
-- Database Internals: A Deep Dive into How Distributed Data Systems Work - Alex Petrov
-- Computer Organization and Design MIPS Edition: The Hardware/Software Interface (The Morgan Kaufmann Series in Computer Architecture and Design) - David A. Patterson, John L. Hennessy
-- The File Structure - 이석호
-<hr>
 # Education
 ### Kookmmin University, Bachelor of Compuer Software (March, 2019 ~ Current)
