@@ -30,15 +30,15 @@ permalink: /:title/
 
 # if you don't want comments in your posts, leave categories empty
 disqus:
-    shortname: mydisqus # enter this from your disqus account
-    categories: [blog] # only show disqus for posts that have these categories
+    shortname: ksh-code # enter this from your disqus account
+    categories: [blog, review] # only show disqus for posts that have these categories
 
 # if you don't have any of social below, comment the line
 # facebook: myfacebook
 # twitter: mytwitter
 # instagram: myinstagram
 # pinterest: mypinterest
-# linkedin: mylinkedin
+linkedin: seonghoon-kim-55195915a
 # youtube: myyoutube
 # spotify: myspotify
 github: ksh-code
